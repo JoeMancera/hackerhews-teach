@@ -1,0 +1,36 @@
+.menu {
+  width: 100%;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.link {
+  width: 98px;
+  height: 31px;
+  padding: 3px 16px 0 17px;
+  border-radius: 2px;
+  border: solid 1px #d6d6d6;
+  text-decoration: none;
+  color: #000;
+}
+
+.link:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.link:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.link:hover {
+  background-color: #1797ff;
+  border: solid 1px #1797ff;
+  color: #fff;
+}
+
+.active {
+  border: solid 1px #1797ff;
+  color: #1797ff;
+}

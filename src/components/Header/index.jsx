@@ -1,8 +1,8 @@
-import "./App.css";
+import "./styles.css";
 
-function Header({ path }) {
+function Header() {
   return (
-    <header>
+    <header className="header">
       <h1>Hacker news</h1>
     </header>
   );
