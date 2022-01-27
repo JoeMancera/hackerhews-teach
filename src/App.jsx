@@ -1,5 +1,5 @@
 import Header from "components/Header";
-import Nav from "components/Nav";
+import Pepito from "components/Nav";
 import Routes from "Routes";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="app">
       <Header />
       <section>
-        <Nav />
+        <Pepito />
         <Routes />
       </section>
     </div>
