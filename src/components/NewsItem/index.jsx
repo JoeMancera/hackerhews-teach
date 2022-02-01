@@ -1,5 +1,6 @@
 import React from "react";
 import timerIcon from "assets/dateIcon.svg";
+import { Card, Description, CreatedAt, IconDate } from "./styles";
 import "./styles.css";
 
 export const NewsItem = ({
@@ -10,12 +11,12 @@ export const NewsItem = ({
   created_at,
 }) => {
   return (
-    <li className="card" key={`${index}-${story_id}`}>
-      <span>
-        <img className="timerIcon" src={timerIcon} alt="" />
+    <Card myId={index} key={`${index}-${story_id}`}>
+      <CreatedAt>
+        <IconDate src={timerIcon} alt="" />
         {created_at} by {author}
-      </span>
-      <p>{story_title}</p>
-    </li>
+      </CreatedAt>
+      <Description>{story_title}</Description>
+    </Card>
   );
 };

@@ -1,4 +1,4 @@
-.card {
+/* .card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -10,24 +10,24 @@
   border-radius: 6px;
   border: solid 1px #979797;
   background-color: #fff;
-}
+} */
 
-.card:hover {
+/* .card:hover {
   opacity: 0.4;
-}
+} */
 
-.card p {
+/* .card p {
   font-size: 14px;
   margin: 0;
-}
+} */
 
-.card span {
+/* .card span {
   display: flex;
   align-items: center;
   font-size: 11px
-}
+} */
 
-.timerIcon {
+/* .timerIcon {
   margin-right: 8px;
   width: 16px;
-}
+} */
