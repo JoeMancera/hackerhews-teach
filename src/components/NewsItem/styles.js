@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Card = styled.li`
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
   list-style: none;
   min-width: 320px;
   min-height: 90px;
@@ -33,3 +32,10 @@ export const IconDate = styled.img`
   margin-right: 8px;
   width: 16px;
 `
+ export const Link = styled.a`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: #6b6b6b;
+ `
