@@ -1,6 +1,7 @@
 import React from "react";
 import { NewsList } from "components/NewsList";
 import { NewsResult } from "components/NewsResult";
+import { Pagination } from "components/Pagination";
 import { useNews } from "hooks/useNews";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <NewsResult>
         <NewsList newsList={newsList} />
       </NewsResult>
+      <Pagination onClick={setPage} />
     </>
   );
 }
